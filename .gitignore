@@ -1,0 +1,8 @@
+processed_data/multiclass/labels_stratified_binary.parquet
+logs.log
+processed_data/binary_classification/fit_data_stratified_binary.parquet
+processed_data/binary_classification/labels_stratified_binary.parquet
+processed_data/multiclass/fit_data_chunk_0.parquet
+processed_data/multiclass/fit_data_stratified_binary.parquet
+processed_data/multiclass/labels_chunk_0.parquet
+clf_binary_land_water_clean copy.ipynb
