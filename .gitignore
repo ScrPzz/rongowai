@@ -20,3 +20,13 @@ catboost_info/tmp/cat_feature_index.c38e9a7-79b4a718-ff6b9d53-84e30bfd.tmp
 catboost_info/tmp/cat_feature_index.ca10af7c-46026cff-afcb74e7-635d396a.tmp
 catboost_info/tmp/cat_feature_index.edd273f3-b2403026-27b3e4a3-939b23bc.tmp
 catboost_info/tmp/cat_feature_index.f6da12c1-70d0b7e1-e37fd5fa-bd2e0857.tmp
+processed_data/multiclass/data_w_features/fit_data_multiclass_stat_features_only.parquet
+processed_data/multiclass/labels_multiclass_raw_counts_only.parquet
+.gitignore
+processed_data/binary_classification/data_w_features/labels_binary_stats_features_only.parquet
+processed_data/multiclass/fit_data_multiclass_raw_counts_only.parquet
+.gitignore
+catboost_info/tmp/cat_feature_index.da685134-fa34a775-7c900af2-f24f06d.tmp
+processed_data/binary_classification/data_w_features/combined_features.parquet
+catboost_info/tmp/cat_feature_index.a754c5e0-e42eed3d-9157e59e-741ce489.tmp
+*.tmp
