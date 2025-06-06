@@ -30,3 +30,20 @@ catboost_info/tmp/cat_feature_index.da685134-fa34a775-7c900af2-f24f06d.tmp
 processed_data/binary_classification/data_w_features/combined_features.parquet
 catboost_info/tmp/cat_feature_index.a754c5e0-e42eed3d-9157e59e-741ce489.tmp
 *.tmp
+articoli/Komjathy, GPS Signal Scattering from Sea Surface..pdf
+*pdf
+*.nc
+.parquet
+*.parquet
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.html
+*.json
+*.txt
+*.csv
+*.pkl
+*.pptx
