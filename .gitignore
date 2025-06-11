@@ -50,3 +50,4 @@ articoli/Komjathy, GPS Signal Scattering from Sea Surface..pdf
 binary_classification_ensembled_experiment
 *.png
 binary_classification_experiment
+mlruns/*
