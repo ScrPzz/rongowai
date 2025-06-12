@@ -51,3 +51,5 @@ binary_classification_ensembled_experiment
 *.png
 binary_classification_experiment
 mlruns/*
+*.joblib
+*.cbm
