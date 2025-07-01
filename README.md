@@ -60,13 +60,13 @@ Si applica quanto detto per Catboost.
 In questo notebook si caricano due modelli preaddestrati Catboost e XGBoost e si crea un classificatore Voting.
 
 
-### MaxProbVotingClassifier
+#### MaxProbVotingClassifier
 Classificatore ensemble che combina predizioni di modelli multipli (CatBoost, XGBoost):
 -**Seleziona la classe con probabilità massima tra i modelli base, In caso di pareggio, privilegia CatBoost**
 - Supporta scaling differenziato per ogni modello
 - Implementa interfaccia scikit-learn standard
 
-## Pipeline di Valutazione
+#### Pipeline di Valutazione
 
 Il sistema implementa una pipeline completa di valutazione che include:
 
@@ -76,7 +76,7 @@ Il sistema implementa una pipeline completa di valutazione che include:
 4. **Metriche estese**: accuracy, precision, recall, F1, AUC-ROC, specificity, NPV
 5. **Visualizzazioni**: ROC curves, precision-recall curves, confusion matrices, curve di calibrazione
 
-## Output
+#### Output
 
 - Modelli ensemble ottimizzati salvati in formato joblib/CatBoost
 - Configurazioni di soglie ottimali per massimizzare specifiche metriche
