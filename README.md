@@ -1,5 +1,6 @@
 Classificatore binario acqua/terra.
 
+Notebooks: 
 #### 1. Data preprocessing e model prototyping: [eda, model_prototype]clf_binary_land_water.ipynb
 #### 2. XGboost fine tuning:[model_training]xgboost_finetune.ipynb
 #### 3. Catboost fine tuning: [model_training]catoost_finetune.ipynb
@@ -56,17 +57,8 @@ Si applica quanto detto per Catboost.
 
 
 ### 4. Voting Classifier (al momento i risultati non giustificano l'aggiunta di complessità)
+In questo notebook si caricano due modelli preaddestrati Catboost e XGBoost e si crea un classificatore Voting.
 
-## Architettura del Sistema
-
-
-### Gestione Dati
-
-**DataLoader**: Gestisce il caricamento efficiente di dati da file Parquet con:
-- Caricamento completo o campionato
-- Bilanciamento automatico delle classi
-- Caching opzionale per ottimizzare la memoria
-- Validazione dell'integrità dei dati
 
 ### MaxProbVotingClassifier
 Classificatore ensemble che combina predizioni di modelli multipli (CatBoost, XGBoost):
