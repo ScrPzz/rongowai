@@ -37,7 +37,7 @@ Usando le features così ottenute, usando Pycaret, si ricercano i modelli più p
 Pipeline completa per classificazione binaria con CatBoost e tracciamento esperimenti tramite MLflow.
 
 
-### Logica generale
+#### Logica generale
 
 #### Fase Sviluppo
 1. Caricamento campione bilanciato per tuning (25K campioni per classe)
