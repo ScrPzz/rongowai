@@ -5,6 +5,7 @@ Notebooks:
 #### 2. XGboost fine tuning:[model_training]xgboost_finetune.ipynb
 #### 3. Catboost fine tuning: [model_training]catoost_finetune.ipynb
 #### 4. Voting classifier XGBost + Catboost: [model_training]voting_classifier.ipynb
+#### 5. Model performances testing: [model_test]all_models_deep_test.ipynb
 
 ### 1. Preprocessamento dati e prototipazione modelli con Pycaret.
 Questo notebook contiene il codice per preprocessare i file netcdf e creare quello che diventerà il dataset di addestramento per i modelli.
@@ -82,3 +83,9 @@ Il sistema implementa una pipeline completa di valutazione che include:
 - Configurazioni di soglie ottimali per massimizzare specifiche metriche
 - Report dettagliati di performance con visualizzazioni comparative
 - Dataset preprocessati in formato Parquet per riutilizzo futuro
+
+
+### 5. Model performances testing
+
+In this notebook n different test sets of chosen dimension are created and the model performances metrics are 
+calculated on each one and than averaged.
