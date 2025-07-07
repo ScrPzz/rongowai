@@ -1,4 +1,4 @@
-Binary water/land classifier.
+Binary water/land classifier Based on Delay Doppler Maps from Rongowai NASA dataset.
 
 Notebooks: 
 #### 1. Data preprocessing and model prototyping: [eda, model_prototype]clf_binary_land_water.ipynb
