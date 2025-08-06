@@ -57,3 +57,5 @@ mlartifacts/556727057629350539/models/m-7ebf76d836b3421c952a97087508d092/artifac
 *.yaml
 *.cb
 mlartifacts/*
+
+mlflow_gitlab_test.ipynb
